@@ -4,9 +4,8 @@ import 'package:image_picker/image_picker.dart';
 import 'package:fake_news_detector/data/models/analysis_result.dart';
 
 class ApiService {
-  // Use your computer's local IP so both web and phone can connect
-  // Both devices must be on the same WiFi network
-  static const String _baseUrl = 'http://192.168.0.111:8000';
+  // Production backend on Render.com — accessible from anywhere
+  static const String _baseUrl = 'https://fake-news-detection-zi59.onrender.com';
 
   late final Dio _dio;
 
