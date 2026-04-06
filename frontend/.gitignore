@@ -1,0 +1,39 @@
+# Flutter
+.dart_tool/
+.packages
+build/
+*.iml
+.metadata
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Android
+**/android/app/debug
+**/android/app/profile
+**/android/app/release
+**/android/.gradle
+**/android/captures
+**/android/local.properties
+**/android/**/GeneratedPluginRegistrant.java
+
+# iOS
+**/ios/Pods/
+**/ios/.symlinks/
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Flutter.podspec
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/app.flx
+**/ios/Flutter/App.framework
+**/ios/Flutter/flutter_assets/
+**/ios/ServiceDefinitions.json
+
+# Generated
+*.g.dart
+*.freezed.dart

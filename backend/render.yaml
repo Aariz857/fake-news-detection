@@ -1,0 +1,17 @@
+# Render.com deployment configuration
+# This file tells Render how to build and run the backend
+
+services:
+  - type: web
+    name: fake-news-detector-api
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    envVars:
+      - key: MOCK_MODE
+        value: "True"
+      - key: DEBUG
+        value: "False"
+      - key: USE_GPU
+        value: "False"
+    healthCheckPath: /api/v1/health
+    plan: free

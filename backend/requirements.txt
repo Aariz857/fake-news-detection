@@ -1,0 +1,27 @@
+# ============================================
+# Fake News Detection Backend — Dependencies
+# ============================================
+
+# --- Core Framework ---
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+python-multipart==0.0.20
+
+# --- Configuration ---
+pydantic==2.10.4
+pydantic-settings==2.7.1
+
+# --- OCR ---
+pytesseract==0.3.13
+Pillow==11.1.0
+
+# --- HTTP Client (for API calls) ---
+httpx==0.28.1
+
+# --- ML / Deep Learning (CPU-only) ---
+torch==2.5.1
+torchvision==0.20.1
+transformers==4.47.1
+
+# --- Utilities ---
+python-dotenv==1.0.1
