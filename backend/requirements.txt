@@ -13,7 +13,7 @@ pydantic-settings==2.7.1
 
 # --- OCR ---
 pytesseract==0.3.13
-Pillow==11.1.0
+Pillow==12.2.0
 
 # --- HTTP Client (for API calls) ---
 httpx==0.28.1
